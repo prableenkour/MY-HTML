@@ -1,0 +1,77 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin:0;
+    padding: 0;
+    background-color: lightyellow
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header p {
+    font-style: italic;
+    margin-top: 5px;
+}
+
+.destination {
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.destination h2 {
+    color: #333;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+form{
+    margin-top: 20px;
+    color: darkred;
+    font-weight: bold;
+  
+}
+
+
+button{
+    background-color: lightskyblue;
+    padding: 10px;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+table{
+    width: 100%;
+    margin-top: 20px;
+    
+}
+table,th,td{
+    border: 1px solid darkblue;
+}
+    th,td{
+        padding: 10px;
+        text-align: center;
+        color: darkred;
+    
+    }
+    footer{
+        background-color: grey;
+        text-align: center;
+        padding: 10px;
+    }
+

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Travel Destinations</title>
+</head>
+<body>
+
+    <header>
+        <h1>Explore India</h1>
+        <p>Let's Explore The India Together!</p>
+    </header>
+
+    <section class="destination" id="jammu">
+        <h2>Jammu and Kashmir</h2>
+        <img src="jammu.jpg" alt="Jammu and Kashmir">
+        <p>Discover the mesmerizing beauty of Jammu and Kashmir, with its snow mountains, valleys, and serene lakes.</p>
+    </section>
+
+    <section class="destination" id="karnataka">
+        <h2>Karnataka</h2>
+        <img src="karnataka.jpg" alt="Karnataka">
+        <p>Experience the rich culture and diverse landscapes of Karnataka, from historic temples to vibrant cities and beautiful beaches.</p>
+    </section>
+
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="destination">Choose a destination:</label>
+        <label for=" Departure date"> Departure date:</label>
+        <input type="date" id="Departure date" name="Departure date" required>
+        <label for="return date"> Return date:</label>
+        <input type="date" id="return date" name="return date" required>
+
+        <select id="destination" name="destination" required>
+            <option value="jammu">Jammu and Kashmir</option>
+            <option value="karnataka">karnataka</option>
+            <option value="delhi">Delhi</option>
+        </select>
+
+        <button type="submit">Submit</button>
+    </form>
+
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Destination</th>
+        </tr>
+    </table>
+    <br> <br>
+
+
+    <footer>
+        <p>&copy; 2024 Explore India</p>
+    </footer>
+
+</body>
+</html>
